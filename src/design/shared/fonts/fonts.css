@@ -1,0 +1,47 @@
+@font-face {
+  font-family: 'Comfortaa';
+  src: url('../fonts/Comfortaa/ComfortaaRegular.eot') format('eot'),
+    url('../fonts/Comfortaa/ComfortaaRegular.woff') format('woff'),
+    url('../fonts/Comfortaa/ComfortaaRegular.woff2') format('woff2'),
+    url('../fonts/Comfortaa/ComfortaaRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  weight: 700;
+  src: url('../fonts/Comfortaa/Comfortaa700.eot') format('eot'),
+    url('../fonts/Comfortaa/Comfortaa700.woff') format('woff'),
+    url('../fonts/Comfortaa/Comfortaa700.woff2') format('woff2'),
+    url('../fonts/Comfortaa/Comfortaa700.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'OpenSansRegular';
+  src: url('../fonts/OpenSans/OpenSansRegular.eot') format('eot'),
+    url('../fonts/OpenSans/OpenSansRegular.woff') format('woff'),
+    url('../fonts/OpenSans/OpenSansRegular.woff2') format('woff2'),
+    url('../fonts/OpenSans/OpenSansRegular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FigtreeRegular';
+  src: url('../fonts/Figtree/figtree-v1-latin-regular.eot') format('eot'),
+    url('../fonts/Figtree/figtree-v1-latin-regular.woff') format('woff'),
+    url('../fonts/Figtree/figtree-v1-latin-regular.woff2') format('woff2'),
+    url('../fonts/Figtree/figtree-v1-latin-regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'FigtreeBold';
+  src: url('../fonts/Figtree/figtree-v1-latin-800.eot') format('eot'),
+    url('../fonts/Figtree/figtree-v1-latin-800.woff') format('woff'),
+    url('../fonts/Figtree/figtree-v1-latin-800.woff2') format('woff2'),
+    url('../fonts/Figtree/figtree-v1-latin-800.ttf') format('truetype');
+}
+
+:root {
+  --font-logo: 'Comfortaa';
+  --font-primary: 'Comfortaa';
+  --font-primary-bold: 'FigtreeBold';
+  --font-secondary: 'OpenSans';
+}
