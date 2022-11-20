@@ -20,8 +20,43 @@ const SignupPage = () => {
     [],
   );
 
+  const fetchGraphQL = async (text: string) => {
+    const response = await fetch('http://localhost:8090/graphql', {
+      method: 'POST',
+      headers: {
+        'Access-Control-Allow-Methods': 'GET, PUT, POST, DELETE, HEAD, OPTIONS',
+        'Content-Type': 'application/json',
+        'Access-Control-Allow-Origin': '*',
+        'Access-Control-Allow-Headers': '*',
+      },
+      body: JSON.stringify({
+        query: text,
+      }),
+    });
+
+    // Get the response as JSON
+    return await response.json();
+  };
+
   const onSubmit = useCallback(() => {
-    navigate('/home');
+    fetchGraphQL(`
+      query findTodos {
+        todos {
+          text
+          done
+          user {
+            name
+          }
+        }
+      }
+    `)
+      .then(response => {
+        console.log('RESPONSE!', response);
+      })
+      .catch(error => {
+        console.error('ERRORZ', error);
+      });
+    // navigate('/home');
   }, []);
 
   return (
@@ -36,7 +71,7 @@ const SignupPage = () => {
           <TextTitle1 as="div">b</TextTitle1>
         </Box>
         <Box alignItems="center" spacingBottom={4}>
-          <TextBody as="div">Connect to the city</TextBody>
+          <TextBody as="div">For the remote world</TextBody>
         </Box>
         <TextInput
           bordered
