@@ -1,6 +1,6 @@
-import Icon from '../../design/web/icons/Icon';
-import { TextInput } from '../../design/web/interactive/TextInput';
-import { Box } from '../../design/web/layout/Box';
+import Icon from '../../../design/web/icons/Icon';
+import { TextInput } from '../../../design/web/interactive/TextInput';
+import { Box } from '../../../design/web/layout/Box';
 
 export default function ExplorePage() {
   return (

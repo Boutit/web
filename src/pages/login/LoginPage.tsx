@@ -1,12 +1,12 @@
 import React, { useCallback, useState } from 'react';
 import { Link } from 'react-router-dom';
-import { Button } from '../../design/web/interactive/Button';
-import { TextInput } from '../../design/web/interactive/TextInput';
-import { Box } from '../../design/web/layout/Box';
-import { TextBody } from '../../design/web/typography/TextBody';
-import { TextTitle4 } from '../../design/web/typography/TextTitle4';
-import { TextTitle3 } from '../../design/web/typography/TextTitle3';
-import NavLink from '../../design/web/navigation/NavLink';
+import { Button } from '../../../design/web/interactive/Button';
+import { TextInput } from '../../../design/web/interactive/TextInput';
+import { Box } from '../../../design/web/layout/Box';
+import { TextBody } from '../../../design/web/typography/TextBody';
+import { TextTitle4 } from '../../../design/web/typography/TextTitle4';
+import { TextTitle3 } from '../../../design/web/typography/TextTitle3';
+import NavLink from '../../../design/web/navigation/NavLink';
 
 const SignupPage = () => {
   const [phoneOrEmail, setPhoneOrEmail] = useState<string>('');

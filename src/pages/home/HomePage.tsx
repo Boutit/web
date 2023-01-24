@@ -1,9 +1,9 @@
-import BoutitCard from '../../design/web/card/BoutitCard';
-import HomeCard from '../../design/web/card/HomeCard';
-import { Box } from '../../design/web/layout/Box';
-import HStack from '../../design/web/layout/HStack';
-import { TextHeadline } from '../../design/web/typography/TextHeadline';
-import { TextSubtitle } from '../../design/web/typography/TextSubtitle';
+import BoutitCard from '../../../design/web/card/BoutitCard';
+import HomeCard from '../../../design/web/card/HomeCard';
+import { Box } from '../../../design/web/layout/Box';
+import HStack from '../../../design/web/layout/HStack';
+import { TextHeadline } from '../../../design/web/typography/TextHeadline';
+import { TextSubtitle } from '../../../design/web/typography/TextSubtitle';
 
 const posts = [
   {

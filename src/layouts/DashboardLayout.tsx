@@ -1,13 +1,13 @@
 import { Outlet } from 'react-router-dom';
-import { Box } from '../design/web/layout/Box';
-import Sidebar from '../design/web/navigation/Sidebar';
+import { Box } from '../../design/web/layout/Box';
+import Sidebar from '../../design/web/navigation/Sidebar';
 import SidebarItem, {
   SidebarItemType,
-} from '../design/web/navigation/SidebarItem';
-import { TextTitle3 } from '../design/web/typography/TextTitle3';
+} from '../../design/web/navigation/SidebarItem';
+import { TextTitle3 } from '../../design/web/typography/TextTitle3';
 import { useMemo } from 'react';
 import { Z_INDEX_MAP } from '../utils/zIndex';
-import FullscreenModal from '../design/web/overlays/modal/FullscreenModal';
+import FullscreenModal from '../../design/web/overlays/modal/FullscreenModal';
 import { useNavigate } from 'react-router-dom';
 
 const ICON_SIZE = 28;

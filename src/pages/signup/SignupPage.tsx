@@ -1,11 +1,11 @@
 import React, { useCallback, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Button } from '../../design/web/interactive/Button';
-import { TextInput } from '../../design/web/interactive/TextInput';
-import { Box } from '../../design/web/layout/Box';
-import NavLink from '../../design/web/navigation/NavLink';
-import { TextBody } from '../../design/web/typography/TextBody';
-import { TextTitle1 } from '../../design/web/typography/TextTitle1';
+import { Button } from '../../../design/web/interactive/Button';
+import { TextInput } from '../../../design/web/interactive/TextInput';
+import { Box } from '../../../design/web/layout/Box';
+import NavLink from '../../../design/web/navigation/NavLink';
+import { TextBody } from '../../../design/web/typography/TextBody';
+import { TextTitle1 } from '../../../design/web/typography/TextTitle1';
 
 const SignupPage = () => {
   const [phoneOrEmail, setPhoneOrEmail] = useState<string>('');

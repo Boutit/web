@@ -1,4 +1,4 @@
-import { Box } from '../../design/web/layout/Box';
+import { Box } from '../../../design/web/layout/Box';
 
 export default function ConnectionsPage() {
   return <Box>connections</Box>;

@@ -1,7 +1,7 @@
-import Icon from '../../design/web/icons/Icon';
-import { Box } from '../../design/web/layout/Box';
-import HStack from '../../design/web/layout/HStack';
-import { TextHeadline } from '../../design/web/typography/TextHeadline';
+import Icon from '../../../design/web/icons/Icon';
+import { Box } from '../../../design/web/layout/Box';
+import HStack from '../../../design/web/layout/HStack';
+import { TextHeadline } from '../../../design/web/typography/TextHeadline';
 
 export default function CreatePage() {
   return (

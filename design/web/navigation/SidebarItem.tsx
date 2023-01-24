@@ -2,7 +2,7 @@ import { icons } from '../icons/icons';
 import { Box } from '../layout/Box';
 import { TextBody } from '../typography/TextBody';
 import { useSidebarContext } from './SidebarContext';
-import { isPathActive } from '../../../utils/navigation';
+import { isPathActive } from '../../../src/utils/navigation';
 import Icon from '../icons/Icon';
 
 export type SidebarItemType = {

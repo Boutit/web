@@ -5,7 +5,7 @@ import { breakpoints } from '../layout/breakpoints';
 import { SidebarProvider } from './SidebarContext';
 import { SidebarItemType } from './SidebarItem';
 import React from 'react';
-import Flows from '../../../components/modals/Flows';
+import Flows from '../../../src/components/modals/Flows';
 
 type SidebarBaseProps = {
   collapsed?: boolean;

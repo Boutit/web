@@ -1,10 +1,10 @@
 import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { Box } from '../../design/web/layout/Box';
-import Sidebar from '../../design/web/navigation/Sidebar';
+import { Box } from '../../../design/web/layout/Box';
+import Sidebar from '../../../design/web/navigation/Sidebar';
 import SidebarItem, {
   SidebarItemType,
-} from '../../design/web/navigation/SidebarItem';
+} from '../../../design/web/navigation/SidebarItem';
 
 const ICON_SIZE = 28;
 

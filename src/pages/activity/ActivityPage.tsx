@@ -1,6 +1,6 @@
-import ActivityCard from '../../design/web/card/ActivityCard';
-import { Box } from '../../design/web/layout/Box';
-import { TextBody } from '../../design/web/typography/TextBody';
+import ActivityCard from '../../../design/web/card/ActivityCard';
+import { Box } from '../../../design/web/layout/Box';
+import { TextBody } from '../../../design/web/typography/TextBody';
 
 const activities = [
   {

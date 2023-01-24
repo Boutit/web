@@ -1,8 +1,8 @@
-import { Box } from '../../design/web/layout/Box';
-import Sidebar from '../../design/web/navigation/Sidebar';
+import { Box } from '../../../design/web/layout/Box';
+import Sidebar from '../../../design/web/navigation/Sidebar';
 import SidebarItem, {
   SidebarItemType,
-} from '../../design/web/navigation/SidebarItem';
+} from '../../../design/web/navigation/SidebarItem';
 
 export default function ChatPage() {
   const sidebarItems: SidebarItemType[] = [];

@@ -1,12 +1,12 @@
-import { Box } from '../../design/web/layout/Box';
-import { Image } from '../../design/web/image/Image';
-import { TextTitle4 } from '../../design/web/typography/TextTitle4';
-import { Button } from '../../design/web/interactive/Button';
-import HStack from '../../design/web/layout/HStack';
-import VStack from '../../design/web/layout/VStack';
-import { TextSubtitle } from '../../design/web/typography/TextSubtitle';
-import { TextHeadline } from '../../design/web/typography/TextHeadline';
-import Icon from '../../design/web/icons/Icon';
+import { Box } from '../../../design/web/layout/Box';
+import { Image } from '../../../design/web/image/Image';
+import { TextTitle4 } from '../../../design/web/typography/TextTitle4';
+import { Button } from '../../../design/web/interactive/Button';
+import HStack from '../../../design/web/layout/HStack';
+import VStack from '../../../design/web/layout/VStack';
+import { TextSubtitle } from '../../../design/web/typography/TextSubtitle';
+import { TextHeadline } from '../../../design/web/typography/TextHeadline';
+import Icon from '../../../design/web/icons/Icon';
 import { useNavigate } from 'react-router-dom';
 import { useCallback } from 'react';
 
